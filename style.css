@@ -1,0 +1,1372 @@
+/*********** IMPORT - GOOGLE FONTS *********************
+font-family: 'Amatic SC', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+********************************************************/
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Yanone+Kaffeesatz:wght@600;700&display=swap');
+@import 'reset.css'; /* Reset Code by Eric Meyer */
+
+/******************************************************
+                      Global
+*******************************************************/
+body {
+  font-size: 16px;
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  background-image: url("background_header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+
+
+
+/*************** Global - Navigation *****************/
+nav {
+  position: absolute;
+  padding: 30px 0 0 0;
+  width: 100%;
+  text-align: center;
+}
+
+nav::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+nav ul li a {
+  color: #F4F1DE;
+  text-decoration: none;
+  font-family: 'Amatic SC', cursive;
+  display: inline-block;
+  position: relative;
+  text-shadow: 1px 1px #000000;
+}
+
+nav ul li a:visited {
+  color: #FFFFFF;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a:hover {
+  color: #F2CC8F;
+}
+
+a.current {
+  border-bottom-color: #81B29A;
+  border-bottom-style: dotted;
+  border-bottom-width: 2px;
+  border-bottom-right-radius: 1em;
+  border-bottom-left-radius: 1em;
+  padding-bottom: 15px;
+
+}
+
+#portfolioButton {
+  clear: both;
+  margin-top: 1em;
+  width: 100px;
+  height: auto;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 2em;
+  border: solid thin #A3A0A2;
+  color: #3D405B;
+  padding: .35em 1em;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, .4);
+}
+
+.subscribe_button {
+  clear: both;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color: #F4F1DE;
+  background-color: #3D405B;
+  border: solid thin #81B29A;
+  border-radius: .1em;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, .4);
+}
+
+.subscribe_button:hover{
+    border: solid thick #81b29A;
+}
+
+
+#brandHeading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #FFFFFF;
+  z-index: 1;
+  text-decoration: none;
+  font-family: 'Amatic SC', cursive;
+  font-weight: 600;
+  text-shadow: 2px 5px rgba(0, 0, 0,.8);
+}
+
+/************** Global - Images *********************/
+.slideShow {
+  background-color: #F4F1DE;
+}
+
+#logo {
+  border: .35em solid #81B29A;
+  padding: 1em;
+  margin-bottom: 0;
+  display: inline-block;
+  background-color: white;
+  box-shadow: 12px 12px 10px rgba(0, 0, 0, .4);
+}
+
+.slideThumb img {
+  opacity: .7;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.slideThumb img:active {
+  opacity: 1;
+}
+
+.slideThumb img:hover {
+  opacity: 1;
+}
+
+#creators {
+    border: .2em solid #ff9966;
+    padding: .35em;
+    background-color: #E07A5F;
+    box-shadow: 10px 10px 5px rgba(0,0,0,.4);
+}
+
+#faq_img {
+  border-style: solid;
+  border-color: #996666;
+  border-width: 2em;
+  display: inline-block;
+  position: relative;
+  box-shadow: 10px 10px 5px rgba(0,0,0,.4);
+}
+
+#contact_img {
+  border: 1em solid #81B29A;
+  padding: .25em;
+  box-shadow: 10px 10px 5px rgba(0,0,0,.4);
+}
+
+/*************** Global - Content Wraps *****************/
+.grid_wrap {
+  display: grid; }
+
+.grid_wrap_home {
+  display: grid; }
+
+.grid_wrap_faq {
+  display: grid; }
+
+.grid_wrap_contact {
+  display: grid; }
+
+.grid_wrap_about {
+  display: grid; }
+
+.box {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+
+.infoBanner{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  margin-bottom: 50px;
+}
+
+.contactBanner {
+  background-color: #81B29A;
+  box-shadow: 0 5px  rgba(51,102,153,.6);
+  margin-bottom: 30px;
+}
+
+
+.faq_description {
+  display: inline;
+}
+
+
+/*************** Global - Fonts *****************/
+
+h1, h2, h3, h4 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: 700;
+}
+
+#home_description h1 {
+  color: #F4F1DE;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-shadow: 1px 3px #000000;
+}
+
+#home_description h2 {
+  color: #81B29A;
+  font-family: 'Amatic SC', cursive;
+  text-shadow: 1px 3px #000000;
+}
+
+#slideShow_description h1 {
+  color: #E07A5F;
+  font-weight: 700;
+  font-size: 4em;
+  text-shadow: 1px 3px rgba(0,0,0,.6);
+}
+
+#slideShow_description h2 {
+  font-family: 'Amatic SC', cursive;
+  color: #81B29A;
+  font-weight: 700;
+  font-size: 3em;
+  text-shadow: 1px 2px rgba(0,0,0,.4);
+}
+
+#subscribeWrap h1 {
+  color: #F4F1DE;
+  font-weight: 100;
+  text-shadow: 2px 2px rgba(0,0,0,.6);
+}
+
+#subscribeWrap h2 {
+  font-family: 'Amatic SC', cursive;
+  color: #F4F1DE;
+  font-weight: 100;
+}
+
+#subscribeWrap p {
+  color: #F4F1DE;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.infoBanner h1 {
+  color: #F4F1DE;
+  text-shadow: 1px 1px rgba(0,0,0,.6);
+}
+
+.infoBanner h2 {
+  color: #E07A5F;
+}
+
+
+.description {
+  text-align: center;
+}
+
+.contactBanner h1 {
+  color: #F4F1DE;
+  text-shadow: 1px 1px rgba(0,0,0,.4);
+}
+
+.contact_description h2 {
+  color: #81B29A;
+  text-shadow: .75px .75px rgba(0,0,0,.6);
+}
+
+.contact_description h3 {
+  color: #81B29A;
+  text-shadow: .75px .75px rgba(0,0,0,.6);
+}
+
+.faq_description h1 {
+  color: #996666;
+  margin-bottom: 10px;
+  border-bottom-style: dashed;
+  border-bottom-width: .02em;
+  text-shadow: 2px 2px rgba(0,0,0,.4);
+}
+
+.faq_description h2 {
+  color: #993366;
+  text-shadow: 1px 1px rgba(0,0,0,.4);
+}
+
+.faq_description p {
+  color: #000000;
+}
+
+
+
+/*************** Global - Forms ******************/
+
+input[type=text], textarea, input[type=tel], input[type=email], select{
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border-style: solid;
+  border-color: #A3A0A2;
+  border-width: thin;
+  box-shadow: 2px 2px rgba(244, 241, 222, .8);
+}
+
+input[type=radio] {
+  display: inline-block;
+  margin-bottom: 10px;
+
+}
+
+#contactField {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+#contactLabel {
+  margin-right: 20px;
+  margin-top: 5px;
+}
+
+#subjectLabel {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#telLabel {
+  padding-left: 20px;
+}
+
+input[type=submit], button {
+  color: #81B29A;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  text-shadow: .5px .5px rgba(0, 0, 0, .5);
+  border: solid 1px #A3A0A2;
+  box-shadow: 1px 1px rgba(163, 160, 162, .6) ;
+}
+
+
+
+#showEmail, #showPhone {
+  display: none;
+}
+
+#showSubscribe {
+  display: none;
+}
+
+#nameError, #contactError, #emailError, #phoneError, #subjectError, #messageError, #itemError, #colorError{
+   display: none;
+  font-size: 1em;
+  color: red;
+  margin-top: 0;
+  margin-bottom: .25em;
+}
+
+/*************** Global - Footer *****************/
+
+footer {
+  background-image: url("background_header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+
+}
+
+footer h3, footer h4 {
+  font-family: 'Amatic SC', cursive;
+  color: #FFFFFF;
+}
+
+#socialMedia {
+  display: inline-block;
+  text-align: center;
+}
+
+footer img {
+  margin-top: 1em;
+  padding: 1em;
+  width: 15%;
+  height: auto;
+
+}
+
+
+/******************************************************
+                      Mobile
+*******************************************************/
+@media only screen and (max-width: 667px) and (min-width: 320px)
+{
+
+  header {
+    height: 200px;
+    width: 100%;
+  }
+
+  nav {
+    width: 100%;
+    margin-top: .2em;
+  }
+
+  nav ul li a {
+    font-weight: 500;
+    font-size: 1.75em;
+    padding: .65em .65em;
+  }
+
+  nav ul {
+    margin-top: 3em;
+    line-height: 1em;
+  }
+
+  #brandHeading {
+    padding: 25px 20px;
+    font-size: 60px;
+  }
+
+/********** Mobile - Containers ***********/
+  .aboutDescription_wrap {
+    margin-left: 1.5em;
+    margin-right: 2.5em;
+    padding-bottom: 2em;
+  }
+
+  .faq_description {
+    background-color: #FFFFFF;
+    padding: 2em;
+    float: left;
+  }
+
+/******** mobile - images ******/
+  #logo {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+
+  #creators {
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  #faq_img {
+    width: 80%;
+    height: auto;
+    margin-left: .85em;
+    margin-right: .5em;
+    margin-bottom: 1.5em;
+  }
+
+/******* mobile - fonts ******/
+  .description h1 {
+    font-size: 3em;
+    font-weight: 700;
+    padding-top: .5em;
+    margin-top: 0;
+    margin-bottom: 0;
+
+  }
+
+  .description h2 {
+    font-size: 2em;
+    font-weight: 700;
+    margin-top: .15em;
+    padding-bottom: .5em;
+  }
+
+  .infoBanner h2 {
+    margin-top: .5em;
+    margin-bottom: .25em;
+    font-size: 5em;
+    text-align: center;
+  }
+
+  .infoBanner p {
+    margin-top: 1em;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    margin-left: 2em;
+  }
+
+  .faq_description h1 {
+    font-size: 3em;
+    margin-bottom: 1em;
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .faq_description h2 {
+    font-size: 1.5em;
+    margin-bottom: 0;
+
+  }
+
+  .faq_description p {
+    font-size: 1.2em;
+    margin-top: .25em;
+    margin-bottom: 4em;
+    line-height: 1.75em;
+    font-weight: 500;
+  }
+
+
+  footer h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.5em;
+    font-weight: 700;
+  }
+
+  footer h4 {
+    font-size: 1.35em;
+    font-weight: 600;
+    margin-top: .5em;
+  }
+
+}
+
+
+/* Internet Safty Page */
+#safetyInfo p {
+  line-height: normal;
+  margin-bottom: 0;
+}
+
+#safetyInfo h1 {
+  margin-bottom: 20px;
+}
+ #safetyInfo h2 {
+   margin-top: 30px;
+ }
+
+#systemInfo {
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+#systemInfo li {
+  margin-bottom: 20px;
+  border-bottom: solid thin #A3A0A2;
+}
+
+.c h3 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: #A3A0A2;
+  text-align: center;
+}
+
+#infoList {
+  width: 60%;
+  border: solid thin #996666;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  padding: 15px;
+}
+
+
+
+
+
+
+/******************************************************
+                       TABLET
+*******************************************************/
+@media only screen and (max-width:1007px) and (min-width: 668px)
+{
+
+  header {
+    height: 250px;
+    width: 100%;
+  }
+
+  nav {
+    margin-top: 1em;
+  }
+
+  nav ul li a {
+    font-weight: 500;
+    font-size: 2em;
+    padding: .5em .5em;
+  }
+
+  nav ul {
+    margin-top: 4em;
+    line-height: 1em;
+  }
+
+  #brandHeading {
+    clear: both;
+    padding: 25px 20px;
+    font-size: 5em;
+  }
+
+/************* Tablet - Containers ******/
+  .aboutDescription_wrap {
+    padding-bottom: 2em;
+  }
+
+
+  .faq_description {
+    background-color: #FFFFFF;
+    padding: 2em;
+    float: left;
+  }
+
+/********* Tablet - Images *********/
+  #logo {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+
+  #creators {
+    width: 60%;
+    height: auto;
+    margin: 1em 1em;
+    float: right;
+  }
+
+  #faq_img {
+    width: 80%;
+    height: auto;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 1.5em;
+  }
+
+/******* tablet - fonts ******/
+  .description h1 {
+    font-size: 4em;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: .5em;
+  }
+
+  .description h2 {
+    font-size: 3em;
+    font-weight: 700;
+    margin-top: .15em;
+    padding-bottom: 1em;
+  }
+
+  .infoBanner h2 {
+    margin-top: 0;
+    margin-bottom: .25em;
+    float: left;
+    font-size: 5.5em;
+    text-align: center;
+    width: 30%;
+  }
+
+  .infoBanner p {
+    margin-top: 1em;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    margin-left: 2em;
+  }
+
+  .faq_description h1 {
+    font-size: 4em;
+    margin-bottom: 1em;
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .faq_description h2 {
+    font-size: 1.8em;
+    margin-bottom: 0;
+    margin-left: 1.66em;
+    margin-right: 2em;
+  }
+
+  .faq_description p {
+    font-size: 1.5em;
+    margin: .25em 2em 4em 2em;
+    line-height: 2em;
+    font-weight: 500;
+  }
+
+  footer h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 2em;
+    font-weight: 700;
+  }
+
+  footer h4 {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-top: .5em;
+  }
+}
+
+/* Internet Safty Page */
+#safetyInfo p {
+  line-height: normal;
+  margin-bottom: 0;
+}
+
+#safetyInfo h1 {
+  margin-bottom: 20px;
+}
+ #safetyInfo h2 {
+   margin-top: 30px;
+ }
+
+#systemInfo {
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+#systemInfo li {
+  margin-bottom: 20px;
+  border-bottom: solid thin #A3A0A2;
+}
+
+.c h3 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: #A3A0A2;
+  text-align: center;
+}
+
+#infoList {
+  width: 60%;
+  border: solid thin #996666;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  padding: 15px;
+}
+
+/******************************************************
+                       DESKTOP
+*******************************************************/
+@media only screen and (min-width: 1008px) {
+  header {
+    height: 250px;
+  }
+
+  #brandHeading {
+    padding: 25px 25px;
+    font-size: 5em;
+  }
+
+  nav ul li a {
+    font-weight: 700;
+    font-size: 2em;
+    padding: .5em .5em;
+  }
+
+  nav ul {
+    float: right;
+    margin-right: 2em;
+    margin-top: 2em;
+    line-height: 1em;
+    overflow: hidden;
+  }
+
+
+
+/*********** Desktop - Grid Wraps ****************/
+
+  .grid_wrap  {
+    grid-gap: 1em;
+    grid-template-columns: 5% 40% 40% 5%;
+    grid-template-rows: auto auto;
+    background-image: linear-gradient(to left, rgba(255, 204, 153,1), rgba(255, 153, 153, .8));
+  }
+
+  .grid_wrap_faq {
+    grid-gap: 5em;
+    grid-template-columns: 5% 30% 50%;
+    grid-template-rows: auto;
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
+  }
+
+
+  .box {
+    width: 100%;
+    margin-top: 1em;
+    padding-bottom: 3em;
+    padding-top: 2em;
+
+  }
+
+/*** home page - grid *****/
+  .grid_wrap_home {
+    display: inline-grid;
+    width: 100%;
+    height: auto;
+    grid-row-gap: 20px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto auto auto;
+    background-color: rgba(61, 64, 91, .9);
+    box-shadow: .5px -10px 3px rgba(0,0,0,.4);
+    width: 100%;
+  }
+
+  .logo_box {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  .description_box {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+
+  #home_description {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    padding-bottom: 2em;
+  }
+
+  .slideSideBar {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+
+  .slideShow {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3em 0;
+    overflow: hidden;
+  }
+
+  #slideShow_description {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    background-color: white;
+  }
+
+  #subscribeWrap {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .subscribeToggle {
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
+
+  #showSubscribe {
+    grid-column: 1/3;
+    grid-row: 4/5;
+    background: #81B29A;
+    padding-top: 1.5em;
+  }
+
+/******* About Page - Grid Wrap | Desktop ******/
+  .grid_wrap_about {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto;
+  }
+
+  .about_title_wrap {
+    display: inline-grid;
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+
+  .about_img_wrap {
+    display: inline-grid;
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+
+  .aboutDescription_wrap {
+    display: inline-grid;
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+
+  #about_title {
+    width: 100%;
+    text-align: center;
+    background-color: #E07A5F;
+    box-shadow: 1px 2px rgba(0,0,0,.4);
+  }
+
+  #aboutIMG {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+  }
+
+  #aboutDescription {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+
+/****** Contact Page - Grid Wraps | Desktop ********/
+  .grid_wrap_contact {
+    width: 100%;
+    grid-template-columns: 5% 40% 45% 5%;
+    grid-template-rows: auto auto auto;
+    grid-column-gap: 1.65%;
+    background-color: white;
+  }
+
+  .contact_title_wrap {
+    display: inline-grid;
+    grid-column: 1/5;
+    grid-row: 1/2;
+  }
+
+  .contactPic {
+    display: inline-flex;
+    grid-column: 3/4;
+    grid-row: 2/3;
+  }
+
+  #contact_Banner{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+  }
+
+  .contactForm {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+
+  .estimateForm {
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
+
+  #contact_title {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+  }
+
+  .a {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    width: 100%;
+  }
+
+  .b {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    width: 100%;
+  }
+
+  .c {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    width: 100%;
+  }
+
+  .d {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    width: 100%;
+  }
+
+
+/********* Desktop - Content Wrap **********/
+  #logo_Banner {
+    display: inline-grid;
+    width: 100%;
+    margin-top: 2em;
+    margin-bottom: 1.5em;
+  }
+
+  .description {
+    float: right;
+    margin-right: 15%;
+    width: 30%;
+  }
+
+  .faq_description {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .contact_description {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #contactSideBar {
+    margin-top: 0;
+  }
+
+
+
+/********** Desktop - Fonts **********/
+  #home_description h1 {
+    font-size: 4em;
+  }
+
+  #home_description h2 {
+    font-size: 4em;
+  }
+
+  #subscribeWrap h1 {
+    font-size: 3em;
+  }
+
+  #subscribeWrap h2 {
+    font-size: 2em;
+  }
+
+  #subscribeWrap p {
+    font-size: 1em;
+    margin-top: .5em;
+  }
+
+
+  .infoBanner h1 {
+    font-size: 4em;
+    font-weight: 300;
+    margin-top: .75em;
+    margin-bottom: .5em;
+    text-shadow: 1px 2px rgba(0,0,0,.4);
+
+  }
+
+  .infoBanner h2 {
+    margin-top: 0;
+    margin-bottom: .25em;
+    font-size: 3.5em;
+    margin-left: .5em;
+        text-shadow: 1px 2px rgba(0,0,0,.4);
+  }
+
+  .infoBanner p {
+    font-size: 1.3em;
+    line-height: 2em;
+    margin-left: 2em;
+    margin-top: 0;
+    width: 80%;
+  }
+
+  .description h1 {
+    font-size: 4em;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: .5em;
+    position: relative;
+  }
+
+  .description h2 {
+    font-size: 3em;
+    font-weight: 700;
+    margin-top: .15em;
+    padding-bottom: 1em;
+  }
+
+  #contact_title h1 {
+    position: relative;
+    font-size: 4em;
+    font-weight: 300;
+    padding-top: .2em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+  }
+
+  .contact_description h2, .contact_description h3 {
+    font-size: 2em;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .contact_description p {
+    line-height: 2em;
+    font-size: 1.1em;
+    font-weight: 500;
+    margin-top: .5em;
+    width: 80%;
+  }
+
+  .faq_description h1 {
+    font-size: 4em;
+    margin-bottom: .75em;
+    margin-top: 0;
+  }
+
+  .faq_description h2 {
+    font-size: 1.7em;
+    margin-bottom: 0;
+  }
+
+  .faq_description p {
+    margin-top: .25em;
+    margin-bottom: 4em;
+    line-height: 1.75em;
+    font-weight: 500;
+    font-size: 1.2em;
+  }
+
+
+/*********** Desktop - Images *********/
+  #logo {
+    width: 50%;
+    height: auto;
+    display: inline-grid;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #change {
+    display: block;
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #81B29A;
+    padding: .35em .35em;
+  }
+
+  .slideThumb {
+    width: 80%;
+    display: flex;
+    border: 2px solid #81B29A;
+    padding: .35em .35em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .slideThumb img {
+    display: flex;
+    height: 100px;
+    width: auto;
+    flex-grow: 1;
+  }
+
+  #creators {
+    display: inline-grid;
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+
+  }
+
+  #contact_img {
+    display: inline-grid;
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+  }
+
+  #faq_img {
+    display: block;
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+/*********** Desktop - Forms **********/
+.forms {
+  margin-top: 2.5em;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+#contactForm input[type=text], input[type=tel], input[type=email], #subjectEntry {
+  width: 70%;
+  padding: .75em .5em;
+  margin-bottom: 1.5em;
+}
+
+textarea {
+  width: 70%;
+  height: 8em;
+  padding: .75em .5em;
+}
+
+input[type=submit] {
+  font-size: 1em;
+  padding: .65em 1em;
+  margin: 1.5em 0 0 0;
+}
+
+select {
+  width: 60%;
+  margin-bottom: 1.25em;
+  padding: .5em .25em;
+}
+
+#submitButton {
+  font-size: 1em;
+  padding: .5em 1em;
+}
+
+.subscribe_button {
+  font-size: 2em;
+  font-weight: 100;
+  padding: .5em .5em .35em .5em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.5em;
+}
+
+
+
+#subscribe input[type="text"] {
+  clear: both;
+  font-size: 1.25em;
+  width: 20%;
+  padding: .3em .25em;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  display: inline-flex;
+}
+
+#subscribe {
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  width: 100%;
+  margin-bottom: 2em;
+  margin-top: .2em;
+}
+
+ #subscrip_submit {
+  background-color: #F4F1DE;
+  font-size: 1.25em;
+  padding: .3em 1em;
+  margin-left: 1em;
+  margin-top: -.1em;
+}
+
+
+/* Desktop Internet Safty Page */
+#safetyInfo p {
+  line-height: normal;
+  margin-bottom: 0;
+}
+
+#safetyInfo h1 {
+  margin-bottom: 20px;
+}
+ #safetyInfo h2 {
+   margin-top: 30px;
+ }
+
+#systemInfo {
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+#systemInfo li {
+  margin-bottom: 20px;
+  border-bottom: solid thin #A3A0A2;
+}
+
+.c h3 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: #A3A0A2;
+  text-align: center;
+}
+
+#infoList {
+  width: 60%;
+  border: solid thin #996666;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  padding: 15px;
+}
+
+/*********** Desktop - Footer *********/
+  footer{
+    padding-top: 5em;
+  }
+
+  footer h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 2.5em;
+    font-weight: 700;
+  }
+
+  footer h4 {
+    font-size: 2em;
+    font-weight: 600;
+    margin-top: .5em;
+  }
+
+}
