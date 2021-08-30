@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Otherwordly Tie-Dye Designs">
+  <meta name="keywords" content="Tie-Dye, clothes, handmade, space dirt">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Lilly Bargioni">
+  <title>Space Dirt Dyes</title>
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+  <script src="modernizr.min.js"></script>
+</head>
+<body>
+  <div id="page">
+    <header>
+      <a href="index.html" title="homepage" id="brandHeading">SPACE DIRT DYES</a>
+      <nav role="navigation" id="mainNav">
+        <ul>
+          <li><a href="index.html" title="home" class="current">Home</a></li>
+          <li><a href="#" title="shop">Shop</a></li>
+          <li><a href="about.html" title="about">About Us</a></li>
+          <li><a href="contact.html" title="contact">Contact</a></li>
+          <li><a href="faq.html" title="FAQ">FAQ</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="grid_wrap_home">
+        <div class="logo_box">
+          <article id="logo_Banner">
+            <img src="img_assets/logo.jpg" alt="logo illustration of Alien" id="logo">
+          </article>
+        </div>
+        <div class="description_box">
+          <aside id="home_description">
+            <h1>OTHERWORLDLY TIE-DYE DESIGNS</h1>
+            <h2>handmade in Eugene, Oregon</h2>
+          </aside>
+        </div>
+        <div class="slideSideBar">
+          <aside id="slideShow_description">
+            <h1>OUR WORK</h1>
+            <h2>A collection of our otherworldly tie-dye work</h2>
+            <p><a href="#" title="portfolio" id="portfolioButton">View More</a></p>
+          </aside>
+        </div>
+        <div class="slideShow">
+            <div class="featured"> <span><img src="img_assets/portfolio/img_0.jpg" alt="" id="change"></span></div>
+            <div class="slideThumb">
+              <img src="img_assets/portfolio/img_0.jpg" alt="" class="thumbIMG" id="img_0">
+              <img src="img_assets/portfolio/img_1.jpg" alt="" class="thumbIMG" id="img_1">
+              <img src="img_assets/portfolio/img_2.jpg" alt="" class="thumbIMG" id="img_2">
+              <img src="img_assets/portfolio/img_3.jpg" alt="" class="thumbIMG" id="img_3">
+              <img src="img_assets/portfolio/img_4.jpg" alt="" class="thumbIMG" id="img_4">
+              <img src="img_assets/portfolio/img_5.jpg" alt="" class="thumbIMG" id="img_5">
+            </div>
+        </div>
+        <div id ="subscribeWrap">
+          <h1>DON'T MISS OUT</h1>
+          <h2>We have new items available every week, but they sell out quick!</h2>
+          <p>Subscribe below, and be the first to know when new items become available</p>
+        </div>
+
+        <div class="subscribeToggle">
+<!-- ****************************** JAVASCRIPT ***********************************************
+  When button is clicked, it calls the showEntry JS function to toggle the visability
+  of the div listed below (showSubscribe) -->
+          <button onclick="showEntry()" class="subscribe_button">Subscribe Here</button>
+        </div>
+
+        <div id="showSubscribe">
+            <form action="mailto:info@spacedirtdyes.com" method="post" id="subscribe">
+              <input type="text" name="name" placeholder="Name" required>
+              <input type="text" name="email" placeholder="E-mail" required>
+              <input type="submit" value="Submit" id="subscrip_submit">
+            </form>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <section id="socialMedia">
+        <a href="https://www.facebook.com/spacedirtdyes/?ref=page_internal" title="facebook">
+          <img src="img_assets/icon_fb.png" alt="facebook icon"></a>
+        <a href="https://www.instagram.com/spacedirtdyes/" title="facebook">
+          <img src="img_assets/icon_ig.png" alt="instagram icon"></a>
+        <h3>COPYRIGHT © 2020 SPACE DIRT DYES - ALL RIGHTS RESERVED.</h3>
+        <h4>Design & Code by Lilly Bargioni</h4>
+      </section>
+    </footer>
+  </div>
+  <script src="home.js"></script>
+</body>
+</html>
