@@ -365,8 +365,6 @@ input[type=submit], button {
   box-shadow: 1px 1px rgba(163, 160, 162, .6) ;
 }
 
-
-
 #showEmail, #showPhone {
   display: none;
 }
@@ -432,8 +430,8 @@ footer img {
 
   nav ul li a {
     font-weight: 500;
-    font-size: 1.75em;
-    padding: .65em .65em;
+    font-size: 1.25em;
+    padding: .5em .5em;
   }
 
   nav ul {
@@ -479,13 +477,16 @@ footer img {
 /******** mobile - images ******/
   #logo {
     width: 30%;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
   }
   
   .slideThumb {
-    width: 40%; 
+    width: 20%; 
+    margin-left: auto;
+    margin-right: auto;
   }
 
   #creators {
