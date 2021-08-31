@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Contact Space Dirt Dye">
+  <meta name="keywords" content="customer service, custom order, contact">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Lilly Bargioni">
+  <title>Space Dirt Dyes</title>
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+  <script src="modernizr.min.js"></script>
+</head>
+
+<body>
+  <div id="page">
+    <header>
+      <a href="index.html" title="homepage" id="brandHeading">SPACE DIRT DYES</a>
+      <nav role="navigation" id="mainNav">
+        <ul>
+          <li><a href="index.html" title="home">Home</a></li>
+          <li><a href="#" title="shop">Shop</a></li>
+          <li><a href="about.html" title="about">About Us</a></li>
+          <li><a href="contact.html" title="contact" class="current">Contact</a></li>
+          <li><a href="faq.html" title="FAQ">FAQ</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="grid_wrap_contact">
+        <div class="contact_title_wrap">
+          <section class="contactBanner" id="contact_title">
+            <h1>Contact Us</h1>
+          </section>
+        </div>
+        <div class="box contactPic">
+          <section id="contact_Banner">
+              <img src="img_assets/contact_img.jpg" alt="logo illustration of Alien" id="contact_img">
+          </section>
+        </div>
+        <div class="box contactForm">
+          <aside class="contact_description">
+              <h2>We'd love to turn your tie-dye dreams into reality.</h2>
+              <p>Looking to place a custom order? Want to see us offer something we don't
+                currently carry? Wholesale order inquiry? Let us know what you are thinking
+                and we will get back to you as soon as possible!</p>
+              <form id="contactForm" class="forms">
+                  <div id="nameError"></div>
+                  <label for="nameEntry">Name:</label>
+                  <input type="text" name="name" id="nameEntry">
+
+                  <div id="contactField">
+                    <div id="contactError"></div>
+                    <label id="contactLabel">Preffered Contact Method:</label>
+                    <label for="email">E-mail</label>
+                    <input type="radio" name="contactType" value="email" id="email">
+                    <label for="phone" id="telLabel">Phone</label>
+                    <input type="radio" name="contactType" value="phone" id="phone">
+
+
+                    <div id="showEmail">
+                      <div id = "emailError"></div>
+                      <label for="emailEntry">E-mail:</label>
+                      <input type="email" name="emailEntry" id="emailEntry">
+                    </div>
+
+                    <div id="showPhone">
+                      <div id="phoneError"></div>
+                      <label for="phoneEntry">Phone:</label>
+                      <input type="tel" name="phoneEntry" placeholder="555-555-5555"
+                       maxlength="10" id="phoneEntry">
+                    </div>
+                  </div>
+
+                  <div id = "subjectError"></div>
+                  <label for="subjectEntry" id="subjectLabel">Message Subject:</label>
+                  <select name="subjectEntry" id="subjectEntry">
+                    <option value="" disabled selected>Select Subject</option>
+                    <option value="custom">Custom Orders</option>
+                    <option value="shipping">Shipping Info</option>
+                    <option value="concerns">Concerns</option>
+                    <option value="question">General Questions</option>
+                    <option value="other">Other</option>
+                  </select>
+
+                  <div id = "messageError"></div>
+                  <label for="messageEntry">Message:</label>
+                  <textarea name="message" id="messageEntry"></textarea>
+                  <input type="submit" value="submit" id="contactSubmit">
+              </form>
+          </aside>
+        </div>
+          <div class="box estimateForm">
+            <aside class="contact_description" id="contactSideBar">
+              <h3>Custom Order Estimatator</h3>
+              <p>Our custom order estimator allows you to instantly get an idea of how much your
+              custom pieces will cost before you submit your request.</p>
+              <p><br>Estimate Total: <span id="costEst">__</span></p>
+              <form class="forms">
+                <div id = "itemError"></div>
+                <select name="itemType" id="itemType">
+                  <option value="" disabled selected>Choose Item Type</option>
+                  <option value="50">Tapestry</option>
+                  <option value="25">T-Shirt</option>
+                  <option value="55">Leggings</option>
+                  <option value="55">Sweaters</option>
+                  <option value="65">Dresses</option>
+                  <option value="65">Sets</option>
+                </select>
+                <div id = "colorError"></div>
+                <select name="numColors" id="numColors">
+                  <option value="" disabled selected>How Many Colors?</option>
+                  <option value="0">1 Color</option>
+                  <option value="5">2 Colors</option>
+                  <option value="15">3 Colors</option>
+                  <option value="20">4 Colors</option>
+                  <option value="25">5 Colors</option>
+                </select>
+                <button type="button" id="submitButton">Estimate</button>
+              </form>
+            </aside>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <section id="socialMedia">
+        <a href="https://www.facebook.com/spacedirtdyes/?ref=page_internal" title="facebook">
+          <img src="img_assets/icon_fb.png" alt="facebook icon"></a>
+        <a href="https://www.instagram.com/spacedirtdyes/" title="facebook">
+          <img src="img_assets/icon_ig.png" alt="instagram icon"></a>
+        <h3>COPYRIGHT © 2020 SPACE DIRT DYES - ALL RIGHTS RESERVED.</h3>
+        <h4>Design & Code by Lilly Bargioni</h4>
+      </section>
+    </footer>
+  </div>
+  <script src="customEst.js"></script>
+</body>
+</html>
