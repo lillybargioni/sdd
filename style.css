@@ -16,7 +16,6 @@ body {
 
 header {
   width: 100%;
-  height: 150px;
   background-image: url("background_header.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -228,13 +227,11 @@ h1, h2, h3, h4 {
 #home_description h1 {
   color: #F4F1DE;
   font-family: 'Yanone Kaffeesatz', sans-serif;
-  text-shadow: 1px 3px #000000;
 }
 
 #home_description h2 {
   color: #81B29A;
   font-family: 'Amatic SC', cursive;
-  text-shadow: 1px 3px #000000;
 }
 
 #slideShow_description h1 {
@@ -396,7 +393,7 @@ footer {
   display: inline-block;
   width: 100%;
   text-align: center;
-
+  padding-bottom: 10px;
 }
 
 footer h3, footer h4 {
@@ -447,10 +444,19 @@ footer img {
 
   #brandHeading {
     padding: 25px 20px;
-    font-size: 60px;
+    font-size: 40px;
   }
 
 /********** Mobile - Containers ***********/
+  .description_box {
+    margin-bottom: 10px;
+  }
+  
+  #slideShow_description {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
   .aboutDescription_wrap {
     margin-left: 1.5em;
     margin-right: 2.5em;
@@ -465,10 +471,14 @@ footer img {
 
 /******** mobile - images ******/
   #logo {
-    width: 80%;
+    width: 40%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 0;
+    margin-bottom: 10px;
+  }
+  
+  .slideThumb {
+    width: 40%; 
   }
 
   #creators {
@@ -487,8 +497,16 @@ footer img {
   }
 
 /******* mobile - fonts ******/
+  #home_description h1 {
+     font-size: 2em;
+  }
+
+  #home_description h2 {
+    font-size: 1em;
+  }
+  
   .description h1 {
-    font-size: 3em;
+    font-size: 2em;
     font-weight: 700;
     padding-top: .5em;
     margin-top: 0;
@@ -552,47 +570,6 @@ footer img {
     margin-top: .5em;
   }
 
-}
-
-
-/* Internet Safty Page */
-#safetyInfo p {
-  line-height: normal;
-  margin-bottom: 0;
-}
-
-#safetyInfo h1 {
-  margin-bottom: 20px;
-}
- #safetyInfo h2 {
-   margin-top: 30px;
- }
-
-#systemInfo {
-  display: block;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
-}
-
-#systemInfo li {
-  margin-bottom: 20px;
-  border-bottom: solid thin #A3A0A2;
-}
-
-.c h3 {
-  margin-bottom: 20px;
-  font-size: 30px;
-  color: #A3A0A2;
-  text-align: center;
-}
-
-#infoList {
-  width: 60%;
-  border: solid thin #996666;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 50px;
-  padding: 15px;
 }
 
 
@@ -1067,10 +1044,12 @@ footer img {
 /********** Desktop - Fonts **********/
   #home_description h1 {
     font-size: 4em;
+    text-shadow: 1px 3px #000000;
   }
 
   #home_description h2 {
     font-size: 4em;
+    text-shadow: 1px 3px #000000;
   }
 
   #subscribeWrap h1 {
