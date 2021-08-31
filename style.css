@@ -446,7 +446,7 @@ footer img {
 
 /********** Mobile - Containers ***********/
   .grid_wrap_home {
-    display: inline-grid;
+    display: inline-block;
     width: 100%;
     height: auto;
     background-color: rgba(61, 64, 91, .9);
@@ -483,11 +483,32 @@ footer img {
     margin-bottom: 10px;
   }
   
+  #change {
+    display: block;
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #81B29A;
+    padding: .35em .35em;
+  }
+
   .slideThumb {
-    width: 20%; 
+    width: 80%;
+    display: flex;
+    border: 2px solid #81B29A;
+    padding: .35em .35em;
     margin-left: auto;
     margin-right: auto;
   }
+
+  .slideThumb img {
+    display: flex;
+    height: 75px;
+    width: auto;
+    flex-grow: 1;
+  }
+ 
 
   #creators {
     width: 80%;
