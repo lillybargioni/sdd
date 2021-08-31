@@ -483,14 +483,25 @@ footer img {
     margin-bottom: 10px;
   }
   
+  .slideShow {
+    width: 100%;
+    height: auto;
+    margin-top: 25px;
+  }
+  
   #change {
-    display: block;
+    display: inline-block;
     width: 80%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
     border: 2px solid #81B29A;
     padding: .35em .35em;
+  }
+  
+  #change img {
+    width: 50%;
+    height: auto;
   }
 
   .slideThumb {
@@ -528,18 +539,26 @@ footer img {
 /******* mobile - fonts ******/
   #home_description h1 {
      font-size: 2em;
+     margin-left: auto;
+     margin-right: auto;
   }
 
   #home_description h2 {
     font-size: 1em;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   #slideShow_description h1 {
     font-size: 2em;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   #slideShow_description h2 {
     font-size: 1em;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .description h1 {
