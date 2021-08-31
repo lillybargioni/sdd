@@ -459,6 +459,7 @@ footer img {
   padding: .35em 1em;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 15px;
  }
 
 /********** Mobile - Containers ***********/
@@ -492,7 +493,7 @@ footer img {
   .faq_description {
     background-color: #FFFFFF;
     padding: 2em;
-    float: left;
+    align-content: center;
   }
 
 /******** mobile - images ******/
@@ -502,7 +503,7 @@ footer img {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
-    margin-top: 10px;
+    margin-top: 15px;
   }
   
   .slideShow {
@@ -527,7 +528,7 @@ footer img {
   }
 
   .slideThumb {
-    width: 80%;
+    width: 60%;
     display: flex;
     border: 2px solid #81B29A;
     padding: .35em .35em;
@@ -561,6 +562,7 @@ footer img {
 /******* mobile - fonts ******/
   #home_description h1 {
      font-size: 2em;
+     margin-top: 25px;
      margin-left: auto;
      margin-right: auto;
      text-align: center;
@@ -578,6 +580,7 @@ footer img {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    text-shadow: 1px 1px #000000;
   }
   
   #slideShow_description h2 {
@@ -585,6 +588,7 @@ footer img {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    text-shadow: 0px 0px #000000;
   }
   
   .description h1 {
