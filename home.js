@@ -16,7 +16,7 @@ function showSlide() {
 // while calling the showSlide Function each iteration.
 function createEventListeners(){
 	for (i=0; i< slideImages.length; i++){
-		slideImages[i].addEventListener("click", showSlide, false);
+		slideImages[i].addEventListener("click", showSlide, true);
 	}
 }
 
