@@ -448,6 +448,18 @@ footer img {
   }
 
 /********** Mobile - Containers ***********/
+  .grid_wrap_home {
+    display: inline-grid;
+    width: 100%;
+    height: auto;
+    grid-row-gap: 20px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto auto auto;
+    background-color: rgba(61, 64, 91, .9);
+    box-shadow: .5px -10px 3px rgba(0,0,0,.4);
+    width: 100%;
+  }
+  
   .description_box {
     margin-bottom: 10px;
   }
@@ -471,7 +483,7 @@ footer img {
 
 /******** mobile - images ******/
   #logo {
-    width: 40%;
+    width: 30%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
@@ -1291,45 +1303,6 @@ select {
 }
 
 
-/* Desktop Internet Safty Page */
-#safetyInfo p {
-  line-height: normal;
-  margin-bottom: 0;
-}
-
-#safetyInfo h1 {
-  margin-bottom: 20px;
-}
- #safetyInfo h2 {
-   margin-top: 30px;
- }
-
-#systemInfo {
-  display: block;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
-}
-
-#systemInfo li {
-  margin-bottom: 20px;
-  border-bottom: solid thin #A3A0A2;
-}
-
-.c h3 {
-  margin-bottom: 20px;
-  font-size: 30px;
-  color: #A3A0A2;
-  text-align: center;
-}
-
-#infoList {
-  width: 60%;
-  border: solid thin #996666;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 50px;
-  padding: 15px;
-}
 
 /*********** Desktop - Footer *********/
   footer{
