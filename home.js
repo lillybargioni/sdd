@@ -6,7 +6,7 @@ var slideImages = document.getElementsByClassName("thumbIMG");
 function showSlide() {
   var selected = '';
 
-  selected = 'this.id' + '.jpg';
+  selected = this.id + '.jpg';
   document.getElementById('change').src = selected;
 }
 
@@ -16,7 +16,7 @@ function showSlide() {
 // while calling the showSlide Function each iteration.
 function createEventListeners(){
 	for (i=0; i< slideImages.length; i++){
-		slideImages[i].addEventListener("click", showSlide, true);
+		slideImages[i].addEventListener("click", showSlide, false);
 	}
 }
 
