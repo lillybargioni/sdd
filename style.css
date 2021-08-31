@@ -430,8 +430,9 @@ footer img {
 
   nav ul li a {
     font-weight: 500;
-    font-size: 1.35em;
+    font-size: 1.5em;
     padding: .6em .6em;
+    text-align: center;
   }
 
   nav ul {
@@ -439,7 +440,7 @@ footer img {
     line-height: 1em;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
+    align-content: center;
   }
 
   #brandHeading {
@@ -455,6 +456,8 @@ footer img {
   border: solid thin #A3A0A2;
   color: #3D405B;
   padding: .35em 1em;
+  margin-left: auto;
+  margin-right: auto;
  }
 
 /********** Mobile - Containers ***********/
@@ -470,10 +473,13 @@ footer img {
     margin-bottom: 20px;
   }
   
+  .slideSideBar {
+     color: #FFFFFF;
+  }
+  
   #slideShow_description {
     margin-top: 50px;
     margin-bottom: 10px;
-    color: #FFFFFF;
   }
   
   .aboutDescription_wrap {
