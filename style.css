@@ -523,10 +523,11 @@ footer img {
   }
   
   .slideShow {
-    display: inline-block;
-    width: 80%;
+    display: block;
+    width: 100%;
     height: auto;
     margin-top: 25px;
+    align-content: center;
   }
   
   #change {
@@ -537,11 +538,6 @@ footer img {
     margin-right: auto;
     border: 2px solid #81B29A;
     padding: .35em .35em;
-  }
-  
-  #change img {
-    width: 50%;
-    height: auto;
   }
 
   .slideThumb {
