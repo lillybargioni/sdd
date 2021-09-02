@@ -479,9 +479,8 @@ footer img {
      background-color: #FFFFFF;
   }
   
-  #slideShow_description {
-    margin-top: 50px;
-    margin-bottom: 10px;
+  #slideShow_description h1{
+    margin-top: 25px;
   }
   
   .aboutDescription_wrap {
