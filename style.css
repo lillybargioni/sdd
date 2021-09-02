@@ -374,7 +374,7 @@ input[type=submit], button {
 }
 
 #nameError, #contactError, #emailError, #phoneError, #subjectError, #messageError, #itemError, #colorError{
-   display: none;
+  display: none;
   font-size: 1em;
   color: red;
   margin-top: 0;
@@ -408,7 +408,6 @@ footer img {
   padding: 1em;
   width: 15%;
   height: auto;
-
 }
 
 
@@ -419,7 +418,7 @@ footer img {
 {
 
   header {
-    height: 125px;
+    height: 135px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -455,6 +454,7 @@ footer img {
   }
   
  #portfolioButton {
+  display: block;
   width: 75px;
   height: auto;
   font-size: 1.5em;
@@ -505,6 +505,11 @@ footer img {
     padding: 2em;
     align-content: center;
   }
+  
+  #contactForm {
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
 
 /******** mobile - images ******/
   #logo {
@@ -554,7 +559,6 @@ footer img {
     flex-grow: 1;
   }
  
-
   #creators {
     width: 80%;
     height: auto;
@@ -563,11 +567,20 @@ footer img {
   }
 
   #faq_img {
-    width: 80%;
+    margin-top: 15px;
+    width: 60%;
     height: auto;
     margin-left: .85em;
     margin-right: .5em;
     margin-bottom: 1.5em;
+  }
+  
+  #contact_img {
+    width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
   }
 
 /******* mobile - fonts ******/
@@ -652,7 +665,14 @@ footer img {
     line-height: 1.75em;
     font-weight: 500;
   }
-
+  
+  .contact_description h2 {
+    font-size: 1em;
+  }
+  
+  #contactSideBar {
+    font-size: 1em; 
+  }
 
   footer h3 {
     margin-top: 0;
