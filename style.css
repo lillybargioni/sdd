@@ -482,6 +482,7 @@ footer img {
   
   .slideSideBar {
      background-color: #FFFFFF;
+     align-content: center;
   }
   
   #slideShow_description {
