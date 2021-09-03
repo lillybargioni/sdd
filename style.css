@@ -545,11 +545,12 @@ footer img {
   }
   
   #change {
-    display: inline-block;
+    display: block;
     width: 80%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 2em;
     border: 2px solid #81B29A;
     padding: .35em .35em;
   }
@@ -564,7 +565,7 @@ footer img {
   }
 
   .slideThumb img {
-    display: flex;
+    display: inline-flex;
     height: 50px;
     width: auto;
     flex-grow: 1;
