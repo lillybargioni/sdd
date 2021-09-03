@@ -419,7 +419,7 @@ footer img {
 
   header {
     width: 100%;
-    height: auto;
+    height: 135px;
     position: absolute;
   }
 
@@ -522,10 +522,7 @@ footer img {
     margin-bottom: 25px;
   }
 
-  .box {
-    margin-left: 1em;
-    margin-right: 1em;
-  }
+  
 /******** mobile - images ******/
   #logo {
     width: 50%;
