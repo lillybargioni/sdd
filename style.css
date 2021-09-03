@@ -421,13 +421,13 @@ footer img {
     width: 100%;
     height: auto;
     align-content: center;
+    position: absolute;
   }
 
   nav {
     display: block;
     width: 100%;
     margin-top: .2em;
-    justify-content: center;
   }
 
   nav ul li a {
@@ -435,23 +435,20 @@ footer img {
     font-size: 1.5em;
     padding: .6em .6em;
     text-align: center;
+    margin-left:auto;
+    margin-right: auto;
   }
 
   nav ul {
     margin-top: 3em;
     line-height: 1em;
-    margin-left: auto;
-    margin-right: auto; 
   }
 
   #brandHeading {
     display: block;
     padding: 25px 20px;
     font-size: 40px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    align-content: center;
+ 
   }
   
  #portfolioButton {
