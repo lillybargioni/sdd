@@ -418,18 +418,16 @@ footer img {
 {
 
   header {
-    height: 135px;
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    height: auto;
     align-content: center;
   }
 
   nav {
-    display: inline-block;
+    display: block;
     width: 100%;
     margin-top: .2em;
-    align-content: center;
+    justify-content: center;
   }
 
   nav ul li a {
@@ -524,6 +522,10 @@ footer img {
     margin-bottom: 25px;
   }
 
+  .box {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
 /******** mobile - images ******/
   #logo {
     width: 50%;
@@ -686,12 +688,20 @@ footer img {
     font-weight: 500;
   }
   
+  #contact_title h1 {
+    font-size: 3em;
+  }
+  
   .contact_description h2 {
-    font-size: 1em;
+    font-size: 2em;
+    margin-top: 2em;
+    margin-bottom:1em;
   }
   
   #contactSideBar {
-    font-size: 1em; 
+    font-size: 2em; 
+    margin-top: 2em;
+    margin-bottom:1em;
   }
 
   footer h3 {
