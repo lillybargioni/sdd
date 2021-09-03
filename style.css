@@ -426,8 +426,10 @@ footer img {
   }
 
   nav {
+    display: inline-block;
     width: 100%;
     margin-top: .2em;
+    align-content: center;
   }
 
   nav ul li a {
@@ -441,11 +443,11 @@ footer img {
     margin-top: 3em;
     line-height: 1em;
     margin-left: auto;
-    margin-right: auto;
-    align-content: center;
+    margin-right: auto; 
   }
 
   #brandHeading {
+    display: block;
     padding: 25px 20px;
     font-size: 40px;
     text-align: center;
@@ -538,6 +540,8 @@ footer img {
     height: auto;
     margin-top: 25px;
     align-content: center;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   #change {
@@ -552,7 +556,7 @@ footer img {
 
   .slideThumb {
     width: 80%;
-    display: inline-block;
+    display: block;
     border: 2px solid #81B29A;
     padding: .35em .35em;
     margin-left: auto;
