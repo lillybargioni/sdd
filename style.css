@@ -457,6 +457,11 @@ footer img {
     font-size: 40px;
   }
   
+ #showSubscribe {
+    display: block;
+    margin-left: 1em;
+ }
+  
  #portfolioButton {
   display: block;
   width: 75px;
@@ -476,6 +481,13 @@ footer img {
   height: auto;
   font-size: 1.5em;
   margin-bottom: 15px;
+  text-align: center;
+  margin-left: 1em;
+  }
+  
+  #subscrip_submit {
+   font-size: 1em;
+   padding: .75em .75em;
   }
 
 /********** Mobile - Containers ***********/
@@ -521,7 +533,6 @@ footer img {
 
   .faq_description {
     background-color: #FFFFFF;
-    padding: 2em;
     align-content: center;
   }
   
@@ -530,8 +541,8 @@ footer img {
   }
   
   .contact_description {
-    margin-left: .25em;
-    margin-right: .25em;
+    margin-left: 1em;
+    margin-right: 1em;
   }
  
   
@@ -718,10 +729,14 @@ footer img {
     padding-bottom: 10px;
   }
   
+  .contact_description h2 {
+    font-size: 1em;
+    margin-top: 1em;
+  }
+  
   .contact_description h3 {
     font-size: .75em;
-    margin-top: 1.5em;
-  }
+    margin-top: 1em;
   
   #contactSideBar p {
     font-size: 1.25em;
@@ -731,9 +746,7 @@ footer img {
    #contactSideBar {
     margin-top: 2em;
     margin-bottom:1em;
-  }
-  
-
+   }
   
    #about_title h1 {
     font-size: 3em;
@@ -803,8 +816,8 @@ select {
 }
 
 #submitButton {
-  font-size: .5em;
-  padding: .5em .5em;
+  font-size: 1em;
+  padding: .75em .75em;
 }
 
 }
