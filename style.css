@@ -215,6 +215,10 @@ a.current {
   display: inline;
 }
 
+#about_title {
+  background-color: #E07A5F;
+}
+
 
 /*************** Global - Fonts *****************/
 
@@ -466,7 +470,7 @@ footer img {
   margin-bottom: 15px;
  }
   
- #subscribe_button {
+ .subscribe_button {
   display: block;
   width: 75px;
   height: auto;
@@ -509,6 +513,13 @@ footer img {
     margin-right: 2.5em;
     padding-bottom: 2em;
   }
+  
+  .grid_wrap_faq {
+    display: block;
+    width: 100%;
+    margin-left: .25em;
+    margin-right: .25em;
+  }
 
   .faq_description {
     background-color: #FFFFFF;
@@ -516,11 +527,19 @@ footer img {
     align-content: center;
   }
   
+  #contact_Banner {
+    display: block; 
+  }
+  
   #contactForm {
     margin-top: 15px;
     margin-bottom: 25px;
   }
 
+  #subscribeWrap {
+    margin-left: .75em;
+  }
+ 
   
 /******** mobile - images ******/
   #logo {
@@ -590,7 +609,7 @@ footer img {
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
   }
 
 /******* mobile - fonts ******/
@@ -618,7 +637,7 @@ footer img {
   }
   
   #slideShow_description h2 {
-    font-size: 1em;
+    font-size: 1.5em;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -627,19 +646,20 @@ footer img {
   
   #subscribeWrap h1 {
     font-size: 2em;
+    margin-top: 1em;
   }
   
    #subscribeWrap h2 {
-    font-size: 1em;
+    font-size: 1.5em;
+    margin-bottom: 1em;
   }
-  
+ 
   .description h1 {
     font-size: 2em;
     font-weight: 700;
     padding-top: .5em;
     margin-top: 0;
     margin-bottom: 0;
-
   }
 
   .description h2 {
@@ -686,6 +706,11 @@ footer img {
   
   #contact_title h1 {
     font-size: 3em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   
   .contact_description h2 {
@@ -694,11 +719,26 @@ footer img {
     margin-bottom:1em;
   }
   
-  #contactSideBar {
-    font-size: 2em; 
+  #contactSideBar p {
+    font-size: 1.25em;
+  }
+  
+   #contactSideBar {
     margin-top: 2em;
     margin-bottom:1em;
   }
+  
+
+  
+   #about_title h1 {
+    font-size: 3em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
 
   footer h3 {
     margin-top: 0;
@@ -712,6 +752,44 @@ footer img {
     font-weight: 600;
     margin-top: .5em;
   }
+  
+/*********** Mobile - Forms **********/
+.forms {
+  margin-top: 1em;
+  margin-bottom: .25em;
+  width: 100%;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+#contactForm input[type=text], input[type=tel], input[type=email], #subjectEntry {
+  width: 70%;
+  padding: .75em .5em;
+  margin-bottom: 1.5em;
+}
+
+textarea {
+  width: 80%;
+  height: 3em;
+  padding: .75em .5em;
+}
+
+input[type=submit] {
+  font-size: 1.5em;
+  padding: .65em 1em;
+  margin: 1.5em 0 0 0;
+}
+
+select {
+  width: 60%;
+  margin-bottom: 1.25em;
+  padding: .5em .25em;
+}
+
+#submitButton {
+  font-size: 1em;
+  padding: .5em 1em;
+}
 
 }
 
@@ -1023,7 +1101,6 @@ footer img {
   #about_title {
     width: 100%;
     text-align: center;
-    background-color: #E07A5F;
     box-shadow: 1px 2px rgba(0,0,0,.4);
   }
 
