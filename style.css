@@ -472,11 +472,9 @@ footer img {
   
  .subscribe_button {
   display: block;
-  width: 75px;
+  width: 40%;
   height: auto;
   font-size: 1.5em;
-  margin-left: auto;
-  margin-right: auto;
   margin-bottom: 15px;
   }
 
@@ -531,6 +529,12 @@ footer img {
     display: block; 
   }
   
+  .contact_description {
+    margin-left: .25em;
+    margin-right: .25em;
+  }
+ 
+  
   #contactForm {
     margin-top: 15px;
     margin-bottom: 25px;
@@ -555,7 +559,7 @@ footer img {
     display: block;
     width: 100%;
     height: auto;
-    margin-top: 25px;
+    padding-top: 25px;
     align-content: center;
     margin-left: auto;
     margin-right: auto;
@@ -599,12 +603,13 @@ footer img {
     margin-top: 15px;
     width: 60%;
     height: auto;
-    margin-left: .85em;
-    margin-right: .5em;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 1.5em;
   }
   
   #contact_img {
+    display: block;
     width: 60%;
     height: auto;
     margin-left: auto;
@@ -651,7 +656,7 @@ footer img {
   
    #subscribeWrap h2 {
     font-size: 1.5em;
-    margin-bottom: 1em;
+    margin-bottom: .5em;
   }
  
   .description h1 {
@@ -713,14 +718,14 @@ footer img {
     padding-bottom: 10px;
   }
   
-  .contact_description h2 {
-    font-size: 2em;
-    margin-top: 2em;
-    margin-bottom:1em;
+  .contact_description h3 {
+    font-size: .75em;
+    margin-top: 1.5em;
   }
   
   #contactSideBar p {
     font-size: 1.25em;
+    line-height: 1.35em;
   }
   
    #contactSideBar {
@@ -743,14 +748,14 @@ footer img {
   footer h3 {
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: 700;
   }
 
   footer h4 {
     font-size: 1.35em;
     font-weight: 600;
-    margin-top: .5em;
+    margin-top: .25em;
   }
   
 /*********** Mobile - Forms **********/
@@ -763,16 +768,27 @@ footer img {
 }
 
 #contactForm input[type=text], input[type=tel], input[type=email], #subjectEntry {
-  width: 70%;
+  width: 60%;
   padding: .75em .5em;
   margin-bottom: 1.5em;
 }
 
 textarea {
-  width: 80%;
+  width: 60%;
   height: 3em;
   padding: .75em .5em;
 }
+
+ #phone {
+  margin-left: 10px;
+  margin-right: 10px;
+ }
+  
+ #email {
+  margin-left: 0px;
+  margin-right: 0px;
+  }
+   
 
 input[type=submit] {
   font-size: 1.5em;
@@ -787,8 +803,8 @@ select {
 }
 
 #submitButton {
-  font-size: 1em;
-  padding: .5em 1em;
+  font-size: .5em;
+  padding: .5em .5em;
 }
 
 }
@@ -808,7 +824,7 @@ select {
     height: 250px;
     width: 100%;
   }
-
+  
   nav {
     margin-top: 1em;
   }
