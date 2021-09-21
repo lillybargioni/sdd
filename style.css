@@ -415,12 +415,12 @@ footer img {
 }
 
 
+
 /******************************************************
                       Mobile
 *******************************************************/
 @media only screen and (max-width: 667px) and (min-width: 320px)
 {
-
   header {
     width: 100%;
     height: 135px;
@@ -975,7 +975,7 @@ select {
 
   #brandHeading {
     padding: 25px 25px;
-    font-size: 5em;
+    font-size: 3em;
   }
 
   nav ul li a {
@@ -1257,12 +1257,12 @@ select {
 
 /********** Desktop - Fonts **********/
   #home_description h1 {
-    font-size: 4em;
+    font-size: 3em;
     text-shadow: 1px 3px #000000;
   }
 
   #home_description h2 {
-    font-size: 4em;
+    font-size: 3em;
     text-shadow: 1px 3px #000000;
   }
 
@@ -1286,7 +1286,6 @@ select {
     margin-top: .75em;
     margin-bottom: .5em;
     text-shadow: 1px 2px rgba(0,0,0,.4);
-
   }
 
   .infoBanner h2 {
@@ -1294,7 +1293,7 @@ select {
     margin-bottom: .25em;
     font-size: 3.5em;
     margin-left: .5em;
-        text-shadow: 1px 2px rgba(0,0,0,.4);
+    text-shadow: 1px 2px rgba(0,0,0,.4);
   }
 
   .infoBanner p {
@@ -1410,7 +1409,6 @@ select {
     margin-right: auto;
     margin-top: 0;
     margin-bottom: 0;
-
   }
 
   #contact_img {
@@ -1525,5 +1523,4 @@ select {
     font-weight: 600;
     margin-top: .5em;
   }
-
 }
