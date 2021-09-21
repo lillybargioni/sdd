@@ -708,8 +708,7 @@ footer img {
 
   .faq_description h2 {
     font-size: 1.5em;
-    margin-bottom: 0;
-
+    margin-bottom: 0px;
   }
 
   .faq_description p {
@@ -737,6 +736,7 @@ footer img {
   .contact_description h3 {
     font-size: .75em;
     margin-top: 1em;
+  }
   
   #contactSideBar p {
     font-size: 1.25em;
