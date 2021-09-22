@@ -212,19 +212,26 @@ a.current {
 
 /*************** Global - Content Wraps *****************/
 .grid_wrap {
-  display: grid; }
+  display: grid;
+  background-image: linear-gradient(to left, rgba(255, 204, 153,1), rgba(255, 153, 153, .8));
+}
 
 .grid_wrap_home {
-  display: grid; }
+  display: grid;
+}
 
-.grid_wrap_faq {
-  display: grid; }
+  grid_wrap_faq {
+  display: grid;
+  background-image: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
+}
 
 .grid_wrap_contact {
-  display: grid; }
+  display: grid; 
+}
 
 .grid_wrap_about {
-  display: grid; }
+  display: grid; 
+}
 
 .box {
   width: 100%;
@@ -1006,11 +1013,12 @@ select {
 *******************************************************/
 @media only screen and (min-width: 1008px) {
   header {
-    height: 250px;
+    height: 125px;
   }
 
   #brandHeading {
-    padding: 25px 25px;
+    margin-top: 1.5em;
+    margin-left: 2em;
     font-size: 3em;
   }
 
@@ -1040,14 +1048,12 @@ select {
     grid-gap: 1em;
     grid-template-columns: 5% 40% 40% 5%;
     grid-template-rows: auto auto;
-    background-image: linear-gradient(to left, rgba(255, 204, 153,1), rgba(255, 153, 153, .8));
   }
 
   .grid_wrap_faq {
     grid-gap: 5em;
     grid-template-columns: 5% 30% 50%;
     grid-template-rows: auto;
-    background-image: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
   }
 
 
