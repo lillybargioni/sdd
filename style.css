@@ -27,7 +27,7 @@ header {
 /*************** Global - Navigation *****************/
 nav {
   position: absolute;
-  padding: 20px 0 0 0;
+  padding: 5px 0 0 0;
   width: 100%;
   text-align: center;
 }
@@ -110,7 +110,6 @@ a.current {
     border: solid thick #81b29A;
 }
 
-
 #brandHeading {
   position: absolute;
   top: 0;
@@ -171,6 +170,45 @@ a.current {
   padding: .25em;
   box-shadow: 10px 10px 5px rgba(0,0,0,.4);
 }
+
+
+/********Gallery code from  https://github.com/Gnkalk/Vanilla-Gallery/graphs/contributors ****/
+.gallery {
+    display: grid;
+    grid-template-columns:repeat(3, 32.8%);
+    grid-auto-rows: minmax(100px ,auto);
+    grid-column-gap: 0.3%;
+    grid-row-gap: 0.2%;
+    justify-items: stretch;
+    padding-bottom: 1%;
+}
+
+.gallery > div {
+    margin: 5px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.gallery > div > img {
+    width: 100%;
+
+    /* Resize images */
+    height: 100%;
+}
+
+.gallery > .big {
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+.gallery > .double-row {
+    grid-column: 3;
+    grid-row: 1/3;
+}
+.gallery > .double-column {
+    grid-column: 1/3;
+}
+
+
+
 
 /*************** Global - Content Wraps *****************/
 .grid_wrap {
