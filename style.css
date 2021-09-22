@@ -1018,7 +1018,6 @@ footer img {
 @media only screen and (min-width: 1008px) {
   header {
     height: 125px;
-    margin-top: -10px;
   }
 
   #brandHeading {
@@ -1072,7 +1071,7 @@ footer img {
 /******  Home Page - Grid Wrap | Desktop  *****/
   .grid_wrap_home {
     display: inline-grid;
-    width: 80%;
+    width: 100%;
     height: auto;
     grid-row-gap: 20px;
     grid-template-columns: 50% 50%;
