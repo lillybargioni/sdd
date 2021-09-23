@@ -107,7 +107,7 @@ a.current {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, .4);
 }
 
-.subscribe_button:hover{
+.subscribe_button:hover #porfolioButton:hover {
     border: solid thick #81b29A;
 }
 
@@ -207,7 +207,8 @@ a.current {
 /*************** GLOBAL - CONTENT WRAPS *****************/
 .grid_wrap {
   display: grid;
-  background-image: linear-gradient(to left, rgba(255, 204, 153,1), rgba(255, 153, 153, .8));
+ /** background-image: linear-gradient(to left, rgba(255, 204, 153,1), rgba(255, 153, 153, .8)); **/
+  background-image: linear-gradient(to right bottom, #190f27, #271631, #371c39, #472341, #582948);
 }
 
 .grid_wrap_home {
@@ -241,7 +242,9 @@ a.current {
 
 .contactBanner {
   background-color: #81B29A;
-  box-shadow: 0 5px  rgba(51,102,153,.6);
+  border-bottom-color: #81B29A;
+  border-bottom-style: dotted;
+  border-bottom-width: 100%;
   margin-bottom: 30px;
 }
 
@@ -251,6 +254,9 @@ a.current {
 
 #about_title {
   background-color: #E07A5F;
+  border-bottom-color: #81B29A;
+  border-bottom-style: dotted;
+  border-bottom-width: 100%;
 }
 
 #gallery_wrap {
