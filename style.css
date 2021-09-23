@@ -23,7 +23,6 @@ header {
 }
 
 
-
 /*************** GLOBAL - NAVIGATION *****************/
 nav {
   position: absolute;
@@ -123,9 +122,7 @@ a.current {
 }
 
 /************** GLOBAL - IMAGES *********************/
-.slideShow {
-  background-color: #F4F1DE;
-}
+
 
 #logo {
   border: .35em solid #81B29A;
@@ -215,7 +212,7 @@ a.current {
   display: grid;
 }
 
-  grid_wrap_faq {
+ .grid_wrap_faq {
   display: grid;
   background-image: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
 }
