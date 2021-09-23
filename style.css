@@ -74,6 +74,11 @@ a.current {
 
 #portfolioButton {
   clear: both;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color: #F4F1DE;
+  background-color: #3D405B;
+  border: solid thin #81B29A;
+  border-radius: .1em;
   margin-top: 1em;
   width: 100px;
   height: auto;
@@ -82,10 +87,7 @@ a.current {
   justify-content: center;
   text-align: center;
   align-content: center;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 2em;
-  border: solid thin #A3A0A2;
-  color: #3D405B;
   padding: .35em 1em;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, .4);
 }
@@ -1315,7 +1317,7 @@ footer img {
 
 
 
-/********** Desktop - Fonts **********/
+/**********  DESKTOP - FONTS  **********/
   #home_description h1 {
     font-size: 3em;
     text-shadow: 1px 3px #000000;
@@ -1424,9 +1426,9 @@ footer img {
   }
 
 
-/*********** Desktop - Images *********/
+/*********** DESKTOP - IMAGES *********/
   #logo {
-    width: 50%;
+    width: 40%;
     height: auto;
     display: inline-grid;
     position: relative;
