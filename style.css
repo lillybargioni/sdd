@@ -218,7 +218,6 @@ a.current {
 .grid_wrap_home {
   display: grid;
   background-image: linear-gradient(to bottom, #142010, #182710, #1e2f10, #25360e, #2d3d0a);
-  grid-row-gap: 2em;
 }
 
  .grid_wrap_faq {
@@ -349,6 +348,12 @@ p {
 .contact_description h3 {
   color: #81B29A;
   text-shadow: .75px .75px rgba(0,0,0,.6);
+}
+
+.contact_description p {
+  border-bottom-style: dotted;
+  border-bottom-width: 100%;
+  border-bottom-color: #81B29A; 
 }
 
 .faq_description h1 {
@@ -1083,9 +1088,9 @@ footer img {
     display: inline-grid;
     width: 100%;
     height: auto;
-    grid-row-gap: 2em;
     grid-template-columns: 50% 50%;
     grid-template-rows: auto auto auto auto;
+    grid-row-gap: 3em;
     margin-left: auto;
     margin-right: auto;
   }
@@ -1215,7 +1220,7 @@ footer img {
 /****** Contact Page - Grid Wraps | Desktop ********/
   .grid_wrap_contact {
     width: 100%;
-    grid-template-columns: 5% 40% 45% 5%;
+    grid-template-columns: 10% 30% 40% 10%;
     grid-template-rows: auto auto auto;
     grid-column-gap: 1.65%;
     background-color: white;
@@ -1298,12 +1303,6 @@ footer img {
    margin-right: 1em;
   }
 
-  .description {
-    float: right;
-    margin-right: 15%;
-    width: 30%;
-  }
-
   .faq_description {
     margin-left: auto;
     margin-right: auto;
@@ -1347,7 +1346,7 @@ footer img {
   }
   
   #portfolioButton {
-    font-size: 1.2em; 
+    font-size: 1.5em; 
   }
   
   #subscribeWrap h2 {
@@ -1369,7 +1368,7 @@ footer img {
   }
 
   .infoBanner h2 {
-    margin-top: 0;
+    margin-top: 0px;
     font-size: 2.5em;
     margin-left: 1em;
     margin-right: 1em;
