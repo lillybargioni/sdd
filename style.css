@@ -93,6 +93,10 @@ a.current {
   text-decoration: none;
 }
 
+#porfolioButton:hover {
+  border: solid thick #81b29A;
+}
+
 .subscribe_button {
   clear: both;
   font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -108,7 +112,7 @@ a.current {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, .4);
 }
 
-.subscribe_button:hover #porfolioButton:hover {
+.subscribe_button:hover {
     border: solid thick #81b29A;
 }
 
@@ -207,12 +211,13 @@ a.current {
 /*************** GLOBAL - CONTENT WRAPS *****************/
 .grid_wrap {
   display: grid;
- /** background-image: linear-gradient(to left, rgba(255, 204, 153,1), rgba(255, 153, 153, .8)); **/
-  background-image: linear-gradient(to right bottom, #190f27, #271631, #371c39, #472341, #582948);
+  background-image: linear-gradient(to left, rgba(255, 204, 153,1), rgba(255, 153, 153, .8)); 
 }
 
 .grid_wrap_home {
   display: grid;
+  background-image: linear-gradient(to right bottom, #190f27, #271631, #371c39, #472341, #582948);
+  grid-row-gap: 2em;
 }
 
  .grid_wrap_faq {
