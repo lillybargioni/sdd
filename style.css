@@ -20,7 +20,9 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   display: block;
-  box-shadow: 10px 10px 5px rgba(0,0,0,.4);
+  border-bottom-style: solid;
+  border-bottom-color: rgba(0,0,0,.6);
+  border-bottom-width: medium;
 }
 
 
@@ -1064,7 +1066,7 @@ footer img {
 /*********** DESKTOP - GRID WRAPS ****************/
 
   .grid_wrap  {
-    grid-gap: 1em;
+    grid-gap: 2%;
     grid-template-columns: 5% 40% 40% 5%;
     grid-template-rows: auto auto;
   }
@@ -1173,6 +1175,7 @@ footer img {
     height: auto;
     grid-template-columns: 50% 50%;
     grid-template-rows: auto auto;
+    grid-row-gap: 1em;
   }
 
   .about_title_wrap {
@@ -1220,7 +1223,7 @@ footer img {
 /****** Contact Page - Grid Wraps | Desktop ********/
   .grid_wrap_contact {
     width: 100%;
-    grid-template-columns: 10% 30% 40% 10%;
+    grid-template-columns: 5% 35% 40% 10%;
     grid-template-rows: auto auto auto;
     grid-column-gap: 1.65%;
     background-color: white;
@@ -1259,8 +1262,6 @@ footer img {
   }
 
   #contact_title {
-    margin-left: auto;
-    margin-right: auto;
     width: 100%;
     text-align: center;
   }
@@ -1377,10 +1378,9 @@ footer img {
 
   .infoBanner p {
     font-size: 1.2em;
-    line-height: 1.3em;
-    margin-left: 2em;
+    line-height: 1.4em;
+    width: 80%;
     margin-top: 1em;
-
   }
 
   #contact_title h1 {
@@ -1391,8 +1391,15 @@ footer img {
     margin-bottom: .5em;
   }
 
-  .contact_description h2, .contact_description h3 {
-    font-size: 2em;
+  .contact_description h2 {
+    font-size: 1.5em;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .contact_description h3 {
+    font-size: 1.5em;
     font-weight: 400;
     margin-top: 0;
     margin-bottom: 0;
@@ -1433,6 +1440,7 @@ footer img {
     position: relative;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 1em;
     box-shadow: 12px 12px 10px rgba(0, 0, 0, .4);
     background-color: white;
   }
