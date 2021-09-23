@@ -216,7 +216,7 @@ a.current {
 
 .grid_wrap_home {
   display: grid;
-  background-image: linear-gradient(to bottom, #06350f, #103916, #193e1e, #214225, #29462c, #345137, #3f5d42, #4b694e, #5e8061, #729875, #87b18a, #9cca9f);
+  background-image: linear-gradient(to bottom, #142010, #182710, #1e2f10, #25360e, #2d3d0a);
   grid-row-gap: 2em;
 }
 
@@ -1082,7 +1082,7 @@ footer img {
     display: inline-grid;
     width: 100%;
     height: auto;
-    grid-row-gap: 20px;
+    grid-row-gap: 2em;
     grid-template-columns: 50% 50%;
     grid-template-rows: auto auto auto auto;
     margin-left: auto;
