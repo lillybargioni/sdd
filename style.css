@@ -1099,6 +1099,8 @@ footer img {
     text-align: center;
     align-content: center;
     padding-bottom: 2em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
   }
 
   .slideSideBar {
