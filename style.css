@@ -216,7 +216,7 @@ a.current {
 
 .grid_wrap_home {
   display: grid;
-  background-image: linear-gradient(to right bottom, #190f27, #271631, #371c39, #472341, #582948);
+  background-image: linear-gradient(to bottom, #06350f, #103916, #193e1e, #214225, #29462c, #345137, #3f5d42, #4b694e, #5e8061, #729875, #87b18a, #9cca9f);
   grid-row-gap: 2em;
 }
 
