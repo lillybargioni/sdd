@@ -1047,7 +1047,7 @@ footer img {
   nav ul {
     float: right;
     margin-right: 2em;
-    margin-top: 1.75em;
+    margin-top: 2em;
     line-height: 1em;
     overflow: hidden;
   }
@@ -1197,7 +1197,6 @@ footer img {
 
   #aboutDescription {
     width: 80%;
-    margin-left: 5em;
   }
 
 /****** Contact Page - Grid Wraps | Desktop ********/
