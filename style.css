@@ -239,10 +239,12 @@ a.current {
 
 .grid_wrap_contact {
   display: grid; 
+  background-image: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
 }
 
 .grid_wrap_about {
   display: grid; 
+  background-image: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
 }
 
 .box {
@@ -254,7 +256,8 @@ a.current {
 
 .infoBanner{
   font-family: 'Yanone Kaffeesatz', sans-serif;
-  margin-bottom: 50px;
+  width: 100%;
+  margin-bottom: 30px;
 }
 
 .contactBanner {
