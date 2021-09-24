@@ -145,12 +145,12 @@ a.current {
 
 /************** GLOBAL - IMAGES *********************/
 
-#logo {
+/*** #logo {
   border: .35em solid #81B29A;
   padding: 1em;
   margin-bottom: 0;
   display: inline-block;
-}
+} **/
 
 .slideThumb img {
   opacity: .7;
@@ -1432,15 +1432,12 @@ footer img {
 
 /*********** DESKTOP - IMAGES *********/
   #logo {
-    width: 40%;
+    width: 20%;
     height: auto;
     display: inline-grid;
     position: relative;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 1em;
     margin-top: 1em;
-    box-shadow: 12px 12px 10px rgba(0, 0, 0, .4);
-    background-color: white;
   }
  
   #change {
