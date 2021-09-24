@@ -1035,11 +1035,11 @@ footer img {
     height: 125px;
   }
 
-  #brandHeading {
+ /** #brandHeading {
     margin-left: 1em;
     margin-top:.25em;
     font-size: 3em;
-  }
+  } **/
 
   nav ul li a {
     font-weight: 700;
