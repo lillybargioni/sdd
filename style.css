@@ -1432,12 +1432,12 @@ footer img {
 
 /*********** DESKTOP - IMAGES *********/
   #logo {
-    width: 25%;
+    width: 30%;
     height: auto;
     display: block;
     position: relative;
-    margin-left: .25em;
-    margin-top: .25em;
+    margin-left: .1em;
+    margin-top: .1em;
   }
  
   #change {
