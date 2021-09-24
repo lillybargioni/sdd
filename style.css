@@ -1101,7 +1101,7 @@ footer img {
   } **/
 
   .description_box {
-    grid-column: 3/4;
+    grid-column: 2/3;
     grid-row: 1/2;
   }
 
@@ -1119,13 +1119,13 @@ footer img {
   }
 
   .slideSideBar {
-    grid-column: 2/3;
+    grid-column: 2/4;
     grid-row: 2/3;
   }
 
   .slideShow {
     grid-column: 3/4;
-    grid-row: 2/3;
+    grid-row: 1/2;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -1232,7 +1232,7 @@ footer img {
 
   .contact_title_wrap {
     display: inline-grid;
-    grid-column: 1/5;
+    width: 100%;
     grid-row: 1/2;
   }
 
@@ -1293,17 +1293,17 @@ footer img {
 
 
 /********* DESKTOP - CONTENT WRAP **********/
-  #logo_Banner {
+ /** #logo_Banner {
     display: inline-grid;
     width: 100%;
     margin-top: 2em;
     margin-bottom: 1.5em;
-  }
+  } 
   
   #slideShow_description {
    margin-left: 1em;
    margin-right: 1em;
-  }
+  } **/
 
   .faq_description {
     margin-left: auto;
