@@ -1038,12 +1038,6 @@ footer img {
     height: 135px;
   }
 
- /** #brandHeading {
-    margin-left: 1em;
-    margin-top:.25em;
-    font-size: 3em;
-  } **/
-
   nav ul li a {
     font-weight: 700;
     font-size: 1.65em;
@@ -1202,12 +1196,8 @@ footer img {
   }
 
   #aboutDescription {
-    display: block;
     width: 80%;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    margin-left: 2em;
+    margin-left: 5em;
   }
 
 /****** Contact Page - Grid Wraps | Desktop ********/
