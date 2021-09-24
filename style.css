@@ -1434,7 +1434,7 @@ footer img {
   #logo {
     width: 25%;
     height: auto;
-    display: inline-grid;
+    display: block;
     position: relative;
     margin-left: .25em;
     margin-top: .25em;
