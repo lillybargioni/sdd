@@ -1028,7 +1028,7 @@ footer img {
 *******************************************************/
 @media only screen and (min-width: 1008px) {
   header {
-    height: 135px;
+    height: 130px;
   }
 
   nav ul li a {
@@ -1106,6 +1106,9 @@ footer img {
   .slideSideBar {
     grid-column: 2/4;
     grid-row: 2/3;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-top: 1em;
+    padding-bottom: 1em;
   }
 
   .slideShow {
@@ -1126,7 +1129,6 @@ footer img {
     justify-content: center;
     text-align: center;
     align-content: center;
-    background-color: rgba(255, 255, 255, 0.8);
   }
 
   #subscribeWrap {
@@ -1384,7 +1386,7 @@ footer img {
 
 /*********** DESKTOP - IMAGES *********/
   #logo {
-    width: 27%;
+    width: 25%;
     height: auto;
     display: block;
     position: relative;
