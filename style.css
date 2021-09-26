@@ -82,21 +82,19 @@ a.current {
   background-color: #3D405B;
   border: solid thin #81B29A;
   border-radius: .1em;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, .4);
   margin-top: 1em;
-  width: 100px;
-  height: auto;
   display: inline-flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
   align-content: center;
-  font-size: 2em;
+  font-size: 1.75em;
   padding: .35em 1em;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, .4);
   text-decoration: none;
 }
 
-#porfolioButton:hover {
+#portfolioButton:hover {
   border: solid thick #81b29A;
 }
 
