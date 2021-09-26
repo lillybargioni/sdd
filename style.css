@@ -1144,7 +1144,7 @@ footer img {
   }
 
   #showSubscribe {
-    grid-column: 2/3;
+    grid-column: 1/4;
     grid-row: 4/5;
     background: #81B29A;
     padding-top: 1.5em;
